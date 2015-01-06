@@ -1,7 +1,11 @@
 am2301_poll
 ======
 This is a demonstrational program using the AM2301 temperature/humidity sensor.
-It uses wiringPI library in polling mode.
+It uses [wiringPI library] (http://wiringpi.com/) in polling mode.
+
+This fork does not use mysql to save the temperature and humidity values.
+
+To compile you can use the GCC compiler with the parameter -lwiringPi (Ex.: gcc am2301_poll.c -lwiringPi)
 
 License
 -------
